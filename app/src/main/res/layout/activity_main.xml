@@ -54,7 +54,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/TypeSpinner"
         android:layout_width="200sp"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
@@ -64,11 +64,12 @@
 
     <EditText
         android:id="@+id/editTextNumberDecimal"
-        android:layout_width="wrap_content"
+        android:layout_width="200sp"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView3"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toTopOf="@+id/textView3" />

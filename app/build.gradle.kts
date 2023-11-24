@@ -5,12 +5,16 @@ plugins {
 
 android {
     namespace = "com.example.yingaccouting"
-    compileSdk = 33
+    compileSdk = 34
+
+    viewBinding{
+        enable = true
+    }
 
     defaultConfig {
         applicationId = "com.example.yingaccouting"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 

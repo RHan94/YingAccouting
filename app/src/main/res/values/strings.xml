@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">營記帳</string>
+    <string-array name="type">
+        <item>早餐</item>
+        <item>午餐</item>
+        <item>晚餐</item>
+        <item>飲料</item>
+        <item>其他</item>
+    </string-array>
 </resources>
